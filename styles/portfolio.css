@@ -25,6 +25,7 @@
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .contact {
     color: #fd6e0a;
@@ -34,7 +35,7 @@
     font-weight: bold;
     padding: 18.5px 23.5px;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 i {
     margin-right: 10px;
@@ -75,7 +76,7 @@ header {
     background-color: #fff8f3;
     background: url("../images/developer.png"), url("../images/header_bg.png"), #fff8f3;
     background-repeat: no-repeat;
-    background-position: 23px 38px, bottom right;
+    background-position: 23px 38px, 877px 319px;
     padding-top: 50px;
 }
 
@@ -105,7 +106,7 @@ nav .menu a {
 header #banner {
     margin: 47px 38px 0px 230px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -133,6 +134,7 @@ header #banner {
 .banner-image img {
     max-width: 585px;
     vertical-align: middle;
+    height: 676px;
 }
 .hero-links {
     display: flex;
